@@ -223,14 +223,7 @@ body{
         height: 140vh;
     }
 
-    .section_banner{
-        border:1px solid red;
-    }
-
-
-
     .banner{
-        border: 1px solid black;
         width: 48%;
     }
 }
