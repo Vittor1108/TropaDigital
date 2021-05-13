@@ -54,27 +54,31 @@ body{
     border-radius: 5px;
     font-size: 1em;
     transition: color .5;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    
 }
 
 .menu_pc ul li:hover{
     background-color: #278b8d;
 }
 
-.menu_pc ul li:nth-child(1){
+.menu_pc ul .selected{
     background-color: #E5E5E5;
     color: black;
+    transform: translateX(4.5%);
+    width:100%;
 }
 
-.menu_pc ul li:nth-child(1){
+.menu_pc ul .selected:hover{
     background-color: #E5E5E5;
-    color: black;
 }
 
 
-.fas{
-    margin-right: 5%;
+.menu_pc ul li > img{
+    margin-right: 2%;
 }
-
 
 /* main content */
 
@@ -223,7 +227,6 @@ body{
         height: 140vh;
     }
 
-    .moda
 
     .banner{
         width: 48%;
