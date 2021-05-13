@@ -68,7 +68,7 @@ body{
     background-color: #E5E5E5;
     color: black;
     transform: translateX(4.5%);
-    width:100%;
+    width:96%;
 }
 
 .menu_pc ul .selected:hover{
